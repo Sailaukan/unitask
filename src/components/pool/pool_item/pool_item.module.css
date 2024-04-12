@@ -1,0 +1,80 @@
+.pool_item_board{
+    min-width: 23%;
+    background-color: white;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 8px;
+    border-radius: 7px;
+    margin-right: 3%;
+    margin-top: 20px;
+    height: 500px;
+}
+
+.title{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin: 7px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.tasks{
+  height: 409px;
+  overflow-y: auto;
+}
+
+.button{
+  background-color: white;
+  color: grey;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 7px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 15px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.tasks_item{
+    color: grey;
+    margin-top: 5px;
+    overflow-x: auto;
+}
+
+.pool_item_board:hover{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.07);
+}
+
+.options{
+  font-size: 13px;
+  border-top: 1px solid grey;
+  display: flex;
+  padding: 3px;
+  margin-top: 3px;
+  flex-direction: column;
+}
+
+.toDone:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.toLater:hover{
+  cursor: pointer;
+  color: blue;
+}
+
+.tasks_item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 7px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.tasks_item:hover{
+  border: 1px solid rgb(200, 200, 200);
+}

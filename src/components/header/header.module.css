@@ -1,0 +1,16 @@
+.header {
+    background-color: #ffffff;
+    color: rgb(34, 34, 34);
+    display: flex;
+    height: auto;
+    grid-area: h;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .title {
+    font-weight: bold;
+  }
